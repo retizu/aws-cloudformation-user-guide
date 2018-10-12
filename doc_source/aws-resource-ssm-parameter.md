@@ -63,8 +63,9 @@ For information about valid values for parameter names, see [Requirements and Co
 *Update requires*: [Replacement](using-cfn-updating-stacks-update-behaviors.md#update-replacement)
 
 `Type`  <a name="cfn-ssm-parameter-type"></a>
-The type of parameter\. Valid values include the following: `String` or `StringList`\.  
-AWS CloudFormation doesn't support the `SecureString` parameter type\.
+The type of parameter\. Valid values include the following: `String`, `StringList` or `SecureString`\.  
+
+Support for Secure String as a parameter in templates is available in the following regions: US East (Ohio), US East (N. Virginia), US West (N. California), US West (Oregon), Canada (Central), Asia Pacific (Mumbai), Asia Pacific (Seoul), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo), EU (Frankfurt), EU (Ireland), EU (London), EU (Paris), South America (São Paulo), and AWS GovCloud (US)\.
 *Required*: Yes  
 *Type*: String  
 *Update requires*: [No interruption](using-cfn-updating-stacks-update-behaviors.md#update-no-interrupt)
